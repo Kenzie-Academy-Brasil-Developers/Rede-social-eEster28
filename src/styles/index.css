@@ -1,0 +1,40 @@
+main {
+    width: 90%;
+    margin: 50px;
+
+}
+
+.header {
+    background-color: var(--grey1);
+
+}
+
+.first-section {
+    display: flex;
+    align-items: center;
+}
+
+.div-post {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+
+}
+
+.image {
+    height: 3.125rem;
+}
+
+.classUl {
+    padding-top: 20px;
+}
+
+.color-profision {
+    color: var(--grey2);
+}
+
+.form01 {
+    padding-right: 40px;
+}
