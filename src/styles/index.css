@@ -1,12 +1,28 @@
 main {
     width: 90%;
-    margin: 50px;
-
+    margin-top: 30px;
+    margin-left: 80px;
 }
-
 .header {
     background-color: var(--grey1);
 
+}
+
+.section01 {
+    width: 50%;
+}
+
+.section02 {
+    width: 50%;
+}
+
+#div-name{
+padding-bottom: 5px
+
+}
+
+#color-profision {
+    color: var(--grey2);
 }
 
 .first-section {
@@ -18,9 +34,8 @@ main {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding-bottom: 12px;
-    padding-top: 12px;
-
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
 }
 
 .image {
@@ -28,13 +43,15 @@ main {
 }
 
 .classUl {
-    padding-top: 20px;
+   padding-top: 20px;
 }
 
-.color-profision {
-    color: var(--grey2);
-}
 
 .form01 {
     padding-right: 40px;
+}
+
+.text2--bold{
+    font-size: 600;
+
 }

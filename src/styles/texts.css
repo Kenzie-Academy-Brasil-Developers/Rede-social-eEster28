@@ -9,7 +9,7 @@ body{
 }
 
 .title2{
-    font-weight: var(--textle2-font-weigth);
+    font-weight: var(--title2-font-weigth);
     font-size: var(--title2-font-size);
     line-height: var(--title2-line-heigth);
 }
