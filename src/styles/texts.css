@@ -3,7 +3,7 @@ body{
 }
 
 .title1{
-    font-weight: var(--textle1-font-weigth);
+    font-weight: var(--title1-font-weigth);
     font-size: var(--title1-font-size);
     line-height: var(--title1-line-heigth);
 }
@@ -30,4 +30,10 @@ body{
     font-weight: var(--text3-font-weigth);
     font-size: var(--text3-font-size);
     line-height: var(--text3-line-heigth);
+}
+
+.text2--bold{
+    font-weight: 600;
+    font-size: var(--text2-font-size);
+
 }

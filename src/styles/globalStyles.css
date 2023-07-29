@@ -20,23 +20,23 @@
     /*Confin Font */
     --font-family: "Inter";
 
-    --textle1-font-weigth: 700;
-    --title1-font-size: 1.75rem;
-    --title1-line-heigth: 2.5rem;
+    --title1-font-weigth:700;
+    --title1-font-size:1.75rem;
+    --title1-line-heigth:2.5rem;
 
-    --title2-font-weigth: 600;
+    --title2-font-weigth:600;
     --title2-font-size: 1.25rem;
     --title2-line-heigth: 1.5rem;
 
-    --text1-font-weigth: 400;
+    --text1-font-weigth:400;
     --text1-font-size: 1rem;
     --text1-line-heigth: 1.75rem;
 
-    --text2-font-weigth: 400;
-    --text2-font-size: 0.875rem;
+    --text2-font-weigth:400;
+    --text2-font-size:0.875rem;
     --text2-line-heigth: 1rem;
 
-    --text3-font-weigth: 400;
-    --text3-font-size: 0.75rem;
-    --text3-line-heigth: 1rem;
+    --text3-font-weigth:400;
+    --text3-font-size:0.75rem;
+    --text3-line-heigth:1rem;
 }
