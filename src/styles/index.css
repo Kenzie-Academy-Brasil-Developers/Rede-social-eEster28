@@ -8,6 +8,9 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1.25rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .header_text {
@@ -22,7 +25,8 @@ body {
 
 main {
     width: 90%;
-    margin: 2rem;
+    margin: 0 auto;
+    margin-top: 80px;
 }
 
 .container__section01 {
@@ -80,6 +84,7 @@ main {
     color: var(--grey2);
     border: 1px solid var(--grey4);
     padding: 10px;
+    resize: none;
 }
 
 .form__textarea:focus {
@@ -93,7 +98,6 @@ main {
     border-radius: 5px;
     padding: 0.9375rem;
     align-self: flex-end;
-
 }
 
 .form__button:hover {
@@ -107,8 +111,7 @@ main {
 
 .suggestions {
     padding-top: 20px;
-    width: 60%;
-
+    width: 90%;
 }
 
 .suggestions__post {
@@ -122,18 +125,20 @@ main {
 .suggestions__button {
     background-color: var(--whiteFixed);
     color: var(--grey1);
-    border: 2px solid var(--grey1);
+    border: 1px solid var(--grey1);
     padding: 0.5rem;
-
+    border-radius: 3px;
 }
 
 .suggestions__button:hover {
     background-color: var(--whiteFixed);
-    border: 2px solid var(--brand-2);
+    border: 1px solid var(--brand-2);
+    color: var(--brand-2);
 }
 
-.suggestions__butto:hover:focus {
-    color: var(--brand-2);
+.suggestions__button:focus {
+    color: var(--whiteFixed);
+    background-color: var(--brand-2);
 }
 
 /*AREA DE LIATAGEM DE POSTS*/
@@ -142,16 +147,24 @@ main {
     width: 60%;
     flex-direction: column;
     align-items: center;
+}
 
+article {
+    width: 100%;
 }
 
 .title__post {
+    margin-top: 20px;
     align-self: flex-start;
     margin-bottom: 1.25rem;
 }
 
 .post__content {
     margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .posts__incons {
@@ -173,31 +186,17 @@ main {
     background-color: var(--grey0);
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1025px) {
 
     .container__section01 {
         max-width: 100%;
         flex-wrap: wrap;
-
     }
 
     .container__post {
         width: 100%;
         margin-right: 0;
         flex-direction: column;
-
-
     }
 
     .container__suggestions {
@@ -205,22 +204,26 @@ main {
     }
 
     .suggestions {
-
         padding-top: 20px;
         display: flex;
-        /* width: 60%; */
         width: 100%;
-
+        overflow-x: auto;
     }
 
     .suggestions__post {
-        
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        min-width: 230px;
+        align-items: flex-start;
     }
 
-    /*BOTÃO DE SEGUIR*/
     .suggestions__button {
-
+        margin-bottom: 20px;
+        align-self: flex-start;
     }
 
-
+    .container__suggestions h2 {
+        margin-top: 20px;
+    }
 }
