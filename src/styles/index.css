@@ -226,4 +226,8 @@ article {
     .container__suggestions h2 {
         margin-top: 20px;
     }
+
+    .container__section02 {
+        width: 100%;
+    }
 }

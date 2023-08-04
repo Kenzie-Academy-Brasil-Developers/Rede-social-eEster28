@@ -1,0 +1,40 @@
+dialog {
+    border: none;
+    margin: 100px 20px;
+    border-radius: 15px;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.conteiner__filter {
+    position: relative;
+}
+
+.button__out {
+    position: absolute;
+    font-size: 20px;
+    color: var(--grey2);
+    background-color: var(--whiteFixed);
+    top: 30px;
+    right: 40px;
+}
+
+#post__name {
+    padding-bottom: 5px
+}
+
+#post__profision {
+    color: var(--grey2);
+}
+
+#title__post {
+    margin-top: 20px;
+    align-self: flex-start;
+    margin-bottom: 1.25rem;
+}
+
+#post__content {
+    margin-top: 20px;
+}
