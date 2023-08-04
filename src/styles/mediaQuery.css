@@ -1,0 +1,46 @@
+
+@media (max-width: 1025px) {
+
+    .container__section--first {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .container__post {
+        width: 100%;
+        margin-right: 0;
+        flex-direction: column;
+    }
+
+    .container__suggestions {
+        width: 100%;
+    }
+
+    .suggestions {
+        padding-top: 20px;
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .suggestions__post {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        min-width: 230px;
+        align-items: flex-start;
+    }
+
+    .suggestions__button {
+        margin-bottom: 20px;
+        align-self: flex-start;
+    }
+
+    .container__suggestions h2 {
+        margin-top: 20px;
+    }
+
+    .container__section--second {
+        width: 100%;
+    }
+}

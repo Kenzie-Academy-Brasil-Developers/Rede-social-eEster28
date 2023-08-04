@@ -1,0 +1,27 @@
+.container__form {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.form__imput {
+    color: var(--grey2);
+    height: 2.5rem;
+    padding: 10px;
+    border: 1px solid var(--grey4);
+}
+
+.form__imput:focus {
+    border-color: var(--brand-2);
+}
+
+.form__textarea {
+    color: var(--grey2);
+    border: 1px solid var(--grey4);
+    padding: 10px;
+    resize: none;
+}
+
+.form__textarea:focus {
+    border-color: var(--brand-2);
+}

@@ -13,10 +13,13 @@
     --grey5: #f8f9fa;
     --grey-opacity-1: rgba(33, 37, 41, 0.5);
     --whiteFixed: #ffffff;
+    ::backdrop{
+        --backColor: rgba(33, 37, 41, 0.5);
+    }
 
     /*Feedback Palette*/
     --like: #d7443e;
-
+    
     /*Confin Font */
     --font-family: "Inter";
 
@@ -39,4 +42,5 @@
     --text3-font-weigth:400;
     --text3-font-size:0.75rem;
     --text3-line-heigth:1rem;
+    
 }

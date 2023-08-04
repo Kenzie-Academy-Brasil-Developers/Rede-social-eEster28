@@ -1,0 +1,44 @@
+.form__button {
+    background-color: var(--brand-1);
+    color: var(--whiteFixed);
+    border-radius: 5px;
+    padding: 0.9375rem;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    background-color: var(--brand-2);
+}
+
+.suggestions__button {
+    background-color: var(--whiteFixed);
+    color: var(--grey1);
+    border: 1px solid var(--grey1);
+    padding: 0.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.suggestions__button:hover {
+    background-color: var(--whiteFixed);
+    border: 1px solid var(--brand-2);
+    color: var(--brand-2);
+}
+
+.suggestions__button:focus {
+    color: var(--whiteFixed);
+    background-color: var(--brand-2);
+}
+
+.post__button {
+    cursor: pointer;
+    background-color: var(--grey1);
+    color: var(--whiteFixed);
+    border-radius: 5px;
+    padding: 0.9375rem;
+}
+
+.post__button:hover {
+    background-color: var(--grey0);
+}

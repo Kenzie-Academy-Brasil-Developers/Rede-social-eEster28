@@ -5,14 +5,14 @@ dialog {
 }
 
 dialog::backdrop {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--backColor);
 }
 
 .conteiner__filter {
     position: relative;
 }
 
-.button__out {
+.button__close {
     position: absolute;
     font-size: 20px;
     color: var(--grey2);
